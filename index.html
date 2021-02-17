@@ -2,6 +2,14 @@
   <body>
     <h1>James Kurlander</h1>
     <p>Welcome to my brand new website!</p>
-    <button type="button">Click Me!</button>
+    <button id="aboutMeButton" type="button">About Me</button>
+    <button id="myInterestsButton" type="button">My Interests</button>
+    <button id="myProjectsButton" type="button">My Projects</button>\
+
+    <script type="text/javascript">
+        document.getElementById("aboutMeButton").onclick = function () {
+            location.href = "https://jameskurlander.github.io/Website/about.html";
+        };
+    </script>
   </body>
 </html>
